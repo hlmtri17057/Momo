@@ -14,6 +14,17 @@
 		DE1B79441ED824F000113EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1B79421ED824F000113EAE /* LaunchScreen.storyboard */; };
 		DE1B794F1ED824F000113EAE /* MomoappV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B794E1ED824F000113EAE /* MomoappV2Tests.swift */; };
 		DE1B795A1ED824F000113EAE /* MomoappV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B79591ED824F000113EAE /* MomoappV2UITests.swift */; };
+		DE1B79681ED8256000113EAE /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B79671ED8256000113EAE /* ViewController1.swift */; };
+		DE1B796A1ED8259B00113EAE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B79691ED8259B00113EAE /* ViewController2.swift */; };
+		DE1B796C1ED825C100113EAE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B796B1ED825C100113EAE /* ViewController3.swift */; };
+		DE1B796E1ED8261C00113EAE /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B796D1ED8261C00113EAE /* ViewController4.swift */; };
+		DE1B79701ED8265000113EAE /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B796F1ED8265000113EAE /* ViewController5.swift */; };
+		DE1B79721ED8266A00113EAE /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B79711ED8266A00113EAE /* ViewController6.swift */; };
+		DE1B79771ED826A800113EAE /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B79731ED826A800113EAE /* DesignButton.swift */; };
+		DE1B79781ED826A800113EAE /* DesignImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B79741ED826A800113EAE /* DesignImageView.swift */; };
+		DE1B79791ED826A800113EAE /* DesignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B79751ED826A800113EAE /* DesignLabel.swift */; };
+		DE1B797A1ED826A800113EAE /* DesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1B79761ED826A800113EAE /* DesignTextField.swift */; };
+		DE1B797D1ED826D400113EAE /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE1B797C1ED826D400113EAE /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		DE1B79551ED824F000113EAE /* MomoappV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomoappV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1B79591ED824F000113EAE /* MomoappV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoappV2UITests.swift; sourceTree = "<group>"; };
 		DE1B795B1ED824F000113EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE1B79671ED8256000113EAE /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		DE1B79691ED8259B00113EAE /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		DE1B796B1ED825C100113EAE /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		DE1B796D1ED8261C00113EAE /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		DE1B796F1ED8265000113EAE /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		DE1B79711ED8266A00113EAE /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		DE1B79731ED826A800113EAE /* DesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
+		DE1B79741ED826A800113EAE /* DesignImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignImageView.swift; sourceTree = "<group>"; };
+		DE1B79751ED826A800113EAE /* DesignLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignLabel.swift; sourceTree = "<group>"; };
+		DE1B79761ED826A800113EAE /* DesignTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignTextField.swift; sourceTree = "<group>"; };
+		DE1B797C1ED826D400113EAE /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +123,15 @@
 				DE1B793B1ED824F000113EAE /* ViewController.swift */,
 				DE1B793D1ED824F000113EAE /* Main.storyboard */,
 				DE1B79401ED824F000113EAE /* Assets.xcassets */,
+				DE1B797B1ED826AF00113EAE /* support */,
 				DE1B79421ED824F000113EAE /* LaunchScreen.storyboard */,
 				DE1B79451ED824F000113EAE /* Info.plist */,
+				DE1B79671ED8256000113EAE /* ViewController1.swift */,
+				DE1B79691ED8259B00113EAE /* ViewController2.swift */,
+				DE1B796B1ED825C100113EAE /* ViewController3.swift */,
+				DE1B796D1ED8261C00113EAE /* ViewController4.swift */,
+				DE1B796F1ED8265000113EAE /* ViewController5.swift */,
+				DE1B79711ED8266A00113EAE /* ViewController6.swift */,
 			);
 			path = MomoappV2;
 			sourceTree = "<group>";
@@ -123,6 +152,18 @@
 				DE1B795B1ED824F000113EAE /* Info.plist */,
 			);
 			path = MomoappV2UITests;
+			sourceTree = "<group>";
+		};
+		DE1B797B1ED826AF00113EAE /* support */ = {
+			isa = PBXGroup;
+			children = (
+				DE1B79731ED826A800113EAE /* DesignButton.swift */,
+				DE1B79741ED826A800113EAE /* DesignImageView.swift */,
+				DE1B79751ED826A800113EAE /* DesignLabel.swift */,
+				DE1B79761ED826A800113EAE /* DesignTextField.swift */,
+				DE1B797C1ED826D400113EAE /* logo.jpg */,
+			);
+			name = support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1B797D1ED826D400113EAE /* logo.jpg in Resources */,
 				DE1B79441ED824F000113EAE /* LaunchScreen.storyboard in Resources */,
 				DE1B79411ED824F000113EAE /* Assets.xcassets in Resources */,
 				DE1B793F1ED824F000113EAE /* Main.storyboard in Resources */,
@@ -256,8 +298,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1B79781ED826A800113EAE /* DesignImageView.swift in Sources */,
+				DE1B796C1ED825C100113EAE /* ViewController3.swift in Sources */,
+				DE1B796E1ED8261C00113EAE /* ViewController4.swift in Sources */,
+				DE1B79681ED8256000113EAE /* ViewController1.swift in Sources */,
+				DE1B796A1ED8259B00113EAE /* ViewController2.swift in Sources */,
 				DE1B793C1ED824F000113EAE /* ViewController.swift in Sources */,
+				DE1B79721ED8266A00113EAE /* ViewController6.swift in Sources */,
+				DE1B79771ED826A800113EAE /* DesignButton.swift in Sources */,
+				DE1B79791ED826A800113EAE /* DesignLabel.swift in Sources */,
 				DE1B793A1ED824F000113EAE /* AppDelegate.swift in Sources */,
+				DE1B79701ED8265000113EAE /* ViewController5.swift in Sources */,
+				DE1B797A1ED826A800113EAE /* DesignTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
