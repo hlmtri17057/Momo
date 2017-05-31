@@ -11,9 +11,14 @@
 import UIKit
 
 class ViewController2: UIViewController {
+    
+    
+    @IBOutlet weak var SHOW_PHONE: UILabel!
+    var inputText = String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+         SHOW_PHONE.text = inputText
         // Do any additional setup after loading the view.
     }
     
