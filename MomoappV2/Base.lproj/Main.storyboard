@@ -31,30 +31,6 @@
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show phone" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQ1-eE-U7s">
-                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="cLh-Ax-dao"/>
-                                                    <constraint firstAttribute="width" constant="42" id="izV-Gk-3H1">
-                                                        <variation key="heightClass=regular-widthClass=compact" constant="150"/>
-                                                    </constraint>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="default">
-                                                    <mask key="constraints">
-                                                        <exclude reference="cLh-Ax-dao"/>
-                                                        <exclude reference="izV-Gk-3H1"/>
-                                                    </mask>
-                                                </variation>
-                                                <variation key="heightClass=regular-widthClass=compact">
-                                                    <mask key="constraints">
-                                                        <include reference="cLh-Ax-dao"/>
-                                                        <include reference="izV-Gk-3H1"/>
-                                                    </mask>
-                                                </variation>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chúng tôi sẽ gửi một mã xác thực đến số điện thoại bạ đã nhập. Bạn có muốn tiếp tục?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0p-7t-ov7">
                                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                                 <constraints>
@@ -124,6 +100,30 @@
                                                     </mask>
                                                 </variation>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show phone" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQ1-eE-U7s">
+                                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="cLh-Ax-dao"/>
+                                                    <constraint firstAttribute="width" constant="42" id="izV-Gk-3H1">
+                                                        <variation key="heightClass=regular-widthClass=compact" constant="150"/>
+                                                    </constraint>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="cLh-Ax-dao"/>
+                                                        <exclude reference="izV-Gk-3H1"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact">
+                                                    <mask key="constraints">
+                                                        <include reference="cLh-Ax-dao"/>
+                                                        <include reference="izV-Gk-3H1"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -151,10 +151,10 @@
                                         <variation key="default">
                                             <mask key="subviews">
                                                 <exclude reference="YfX-iD-CR5"/>
-                                                <exclude reference="BQ1-eE-U7s"/>
                                                 <exclude reference="a0p-7t-ov7"/>
                                                 <exclude reference="eVQ-oJ-CZF"/>
                                                 <exclude reference="gHJ-aG-WyI"/>
+                                                <exclude reference="BQ1-eE-U7s"/>
                                             </mask>
                                             <mask key="constraints">
                                                 <exclude reference="AO4-Ku-fBg"/>
@@ -174,10 +174,10 @@
                                         <variation key="heightClass=regular-widthClass=compact">
                                             <mask key="subviews">
                                                 <include reference="YfX-iD-CR5"/>
-                                                <include reference="BQ1-eE-U7s"/>
                                                 <include reference="a0p-7t-ov7"/>
                                                 <include reference="eVQ-oJ-CZF"/>
                                                 <include reference="gHJ-aG-WyI"/>
+                                                <include reference="BQ1-eE-U7s"/>
                                             </mask>
                                             <mask key="constraints">
                                                 <include reference="AO4-Ku-fBg"/>
